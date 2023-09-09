@@ -1,6 +1,7 @@
 <style>
     button {      
         cursor: pointer;
+        vertical-align: top;
     }
     .subnjoin-border {
         border-radius: 2px;
@@ -9,21 +10,23 @@
     .border-Tweet {
         border-radius: 20px;
     }
-    .sub {
+    .button-subscribe {
         background-color: red;
         color: white;
         height: 36px;
         width: 100px; 
         border: none;
+        transition: opacity 0.5s;
     }
-    .join {
-        background-color: white;
-        color: rgb(0, 140, 255);
-        border-color: rgb(0, 140, 255);;
-        height: 36px;
-        width: 64px; 
+    .button-subscribe:hover {
+        opacity: .65;
     }
-    .join {
+
+    .button-subscribe:active {
+        opacity: .4;
+    }
+
+    .button-join {
         background-color: white;
         color: rgb(0, 140, 255);
         border-color: rgb(0, 140, 255);
@@ -31,8 +34,16 @@
         border-width: 1px;
         height: 36px;
         width: 64px; 
+        transition: background-color 0.3s, color 0.5s;
     }
-    .tweet {
+    .button-join:hover {
+        background-color: rgb(0, 140, 255);
+        color: white;
+    }
+    .button-join:active {
+        opacity: 0.75;
+    }
+    .button-tweet {
         background-color: rgb(0, 140, 255);
         color: white;
         font-weight: bold;
@@ -40,25 +51,29 @@
         height: 36px;
         width: 84px; 
         font-size: 15px;
+        transition: box-shadow 0.3s;
+    }
+    .button-tweet:hover {
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);        
     }
 </style>
 
 <button 
-    class="sub subnjoin-border">
+    class="button-subscribe subnjoin-border">
     
     SUBSCRIBE
 
 </button>
 
 <button 
-    class = "join subnjoin-border">
+    class = "button-join subnjoin-border">
 
     JOIN
 
 </button>
 
 <button 
-    class = "tweet border-Tweet">
+    class = "button-tweet border-Tweet">
 
         Tweet
 
