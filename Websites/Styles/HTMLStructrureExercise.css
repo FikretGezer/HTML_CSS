@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/B2aUYFC0qUAkNnjbTHRyhrg3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+    margin: auto;
+    width: 960px;
+    overflow: hidden;
+}
+
+img {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+a {
+    transition: color 0.5s;
+}
+
+a:visited {
+    color: rgb(247, 211, 10);
+}
+
+a:hover {
+    color: rgb(0, 225, 255);
+}
+
+.removeMargins {
+    margin: 0;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.explanation {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.emphasis {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.emphasis:hover {
+    color:red;
+}
+
+.montserrat-Font {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}

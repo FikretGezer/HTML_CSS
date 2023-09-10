@@ -1,0 +1,47 @@
+p {
+    font-family: Arial;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+.other {
+    color: grey;
+}
+.text-head {      
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.stats {
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.descp {
+    width: 300px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;        
+}
+.apple-text {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shop-text {
+    color: red;
+    cursor: pointer;
+}
+.shop-text:hover {
+    text-decoration: underline;
+}
