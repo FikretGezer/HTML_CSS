@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div Tag Example</title>
+        <style>
+            .div-example-1 {
+                display: inline-block;
+                width: 300px;
+                height: 300px;
+                background-color: red;
+                border-radius: 50px;
+                
+                
+                transition: border-radius 0.5s ease-in, background-color 0.5s ease-in;
+                
+            }
+            .div-example-1:hover {
+                background-color: green;
+                border-radius: 300px;
+            }
+
+            .recreation {
+                vertical-align: top;
+                display: inline-block;
+                border-style: none;
+                padding-left: 10px;
+                padding-right: 40px;
+                padding-bottom: 20px;
+                box-shadow: 0 0 3px rgba(0,0,0, 0.5);
+            }
+
+            .youtube-music {
+                vertical-align: top;
+                display: inline-block;
+                width: 300px;
+                background-color: rgb(37, 37, 37);
+                padding-left: 15px;
+                
+            }
+
+            .youtube-music-header {
+                font-weight: bold;
+                font-size: 25px;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                color: white;
+            }
+
+            .youtube-music-exp {
+                color: rgb(145, 145, 145);
+                font-size: 15px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div-example-1">
+
+        </div>
+        <div class="recreation">
+            <p>
+                Satisfied with our service?
+            </p>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+        <div class="youtube-music">
+            <p class="youtube-music-header">
+                Install Youtube Music
+            </p>
+            <p class="youtube-music-exp">
+                Add Youtube Music to your desktop for quick and easy access
+            </p>
+        </div>
+    </body>
+</html>
