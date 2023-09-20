@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Examples</title>
+        <style>
+            body {
+                height: 3000px;
+            }
+            .oliver {                        
+                display: flex;
+                flex-direction: row;
+                
+                position: fixed;
+                top: 0px;                
+                left: 0px;
+                right: 0px;
+
+                height: 60px;
+
+                background-color: white;
+            }
+            
+            .left-side {
+                display: flex;
+                align-items: center;   
+                flex: 1;
+
+                font-weight: bold;
+
+                margin-left: 50px;
+
+                width: 140px;
+                height: 100%;
+            }
+            .cat-image {
+                width: 50px;
+                height: 50px;
+                margin-left: 10px;
+
+                border-radius: 50px;
+            }
+            .cat-name {
+                margin-left: 10px;
+            }
+
+            .right-side {
+                display: flex;
+                justify-content: space-around;
+                align-items: center; 
+                margin-right: 100px;
+                width: 200px;
+            }
+            
+            .friend-button {
+                background-color: rgb(61, 139, 255);
+                color: white; 
+                font-weight: bold;
+
+                border: none;
+                border-radius: 5px;
+
+                width: 90px;
+                height: 25px;
+            }
+
+            .message-button {
+                background-color: rgb(209, 209, 209);
+                color: black; 
+                font-weight: bold;
+
+                border: none;
+                border-radius: 5px;
+
+                width: 90px;
+                height: 25px;
+            }
+
+            .sidebar {
+                background-color: rgb(41, 41, 41);
+
+                position: fixed;
+                top: 60px;
+                bottom: 0px;
+                left: 0px;
+                width: 70px;                
+                
+                display: flex;
+                flex-direction: column;                
+                align-items: center;
+            }
+
+            .side-image {
+                width: 50px;
+                border-radius: 50px;
+                margin-top: 10px;
+            }
+
+            .sidebar2 {
+                background-color: rgb(63, 63, 63);
+
+                position: fixed;
+                top: 60px;
+                bottom: 0px;
+                left: 70px;
+
+                width: 200px;                
+                
+                display: flex;
+                flex-direction: column;  
+                padding-left: 15px;
+                padding-right: 15px;
+                
+                font-weight: bold;
+            }
+            
+            .head {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .info {
+                color: rgb(218, 218, 218);
+            }
+            .plus {
+                color: rgb(146, 146, 146);                
+            }
+            .other {
+                color: grey;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div class="oliver">
+            <div class="left-side">
+                <img class="cat-image" src="Images/cat-2.jpeg" alt="oliver">
+                <p class="cat-name">Oliver Cat</p>
+            </div>
+            <div class="right-side">
+                <button class="friend-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <img class="side-image" src="Images/cat-2.jpeg" alt="">
+            <img class="side-image" src="Images/cat-3.jfif" alt="">
+            <img class="side-image" src="Images/cat.jpg" alt="">
+        </div>
+        <div class="sidebar2">
+            <div class="head">
+                <p class="info">INFO</p>
+                <p class="plus">+</p>
+            </div>
+            <div class="other">
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+    </body>
+</html>
