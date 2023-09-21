@@ -6,4 +6,28 @@
     
     width: 70px;
     background-color: white;
+    z-index: 101;
+}
+
+.sidebar-link {
+    height: 74px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-link:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    height: 24px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
 }
